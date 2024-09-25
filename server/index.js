@@ -4,6 +4,7 @@ import cors from "cors";
 import indexRoutes from "./rutas/tareas.rutas.js";
 import taskRoutes from "./rutas/tareas.rutas.js";
 
+
 const app = express();
 
 app.use(cors());
