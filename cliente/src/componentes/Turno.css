@@ -1,0 +1,51 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto;
+    gap: 5px;
+  }
+  
+  .element1 {
+    grid-column: 1 ;
+    width: 20vw;
+    
+  }
+  
+  .element2 {
+    grid-column: 1;
+  }
+  
+  .element3 {
+    grid-column: 2;
+  }
+  
+  .element4 {
+    grid-column:2;
+  }
+  
+  .selector {
+    width: 350px; 
+    height: 200px; 
+    justify-content: center;
+    justify-items: end;
+}
+
+
+.rbc-event {
+  background-color: rgb(243, 243, 243);
+}
+
+
+.icon-large {
+  font-size: 1.3em;
+}
+
+.rbc-event .rbc-event-time,
+.rbc-event .rbc-event-label {
+  display: none; /* Oculta la hora y la etiqueta del evento */
+}
